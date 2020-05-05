@@ -1,8 +1,9 @@
 import React from 'react'
+import Tetris from './components/Tetris'
 
 const App = () => {
   return (
-    <p>Tetris</p>
+    <Tetris />
   )
 }
 
