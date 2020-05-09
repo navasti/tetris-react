@@ -10,11 +10,15 @@ export const usePlayer = () => {
     });
 
     const updatePlayerPosition = ({ x, y, collided }) => {
-        setPlayer(prev => ({
+        setPlayer(prev => {
+            console.log(collided)
+            console.log(prev.collided)
+
+            return({
             ...prev,
-            pos: { x: (prev.position.x += x), y: (prev.position.y += y) },
+            position: { x: (prev.position.x += x ), y: (prev.position.y += y) },
             collided,
-        }))
+        })})
     };
 
     const resetPlayer = useCallback(() => {

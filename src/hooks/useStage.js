@@ -3,7 +3,7 @@ import { createStage } from '../gameHelpers';
 
 export const useStage = (player, resetPlayer) => {
     const [stage, setStage] = useState(createStage());
-
+    
     useEffect(() => {
         const updateStage = prevStage => {
             // First flush the stage
@@ -23,12 +23,17 @@ export const useStage = (player, resetPlayer) => {
                 })
             });
 
+            // Then check if we collided
+            if(player.collided){
+                resetPlayer();
+            };
+
             return newStage;
         };
 
         setStage(prev => updateStage(prev));
         
-    }, [player]);
+    }, [player, resetPlayer]);
 
     return [stage, setStage];
 }
