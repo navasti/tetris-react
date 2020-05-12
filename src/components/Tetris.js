@@ -15,6 +15,7 @@ import { useGameStatus } from '../hooks/useGameStatus';
 import Stage from './Stage';
 import Display from './Display';
 import StartButton from './StartButton';
+import GameRules from './GameRules';
 
 const Tetris = () => {
     const [dropTime, setDropTime] = useState(null);
@@ -54,7 +55,6 @@ const Tetris = () => {
         }else{
             // Game is over
             if(player.position.y < 1){
-                console.log('game over')
                 setGameOver(true);
                 setDropTime(null);
             }
@@ -110,10 +110,11 @@ const Tetris = () => {
                         )
                     }
                     <StartButton callback={startGame}/>
+                    <GameRules/>
                 </aside>
             </StyledTetris>
         </StyledTetrisWrapper>
     )
-}
+};
 
 export default Tetris;
