@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tetris-react/static/css/main.e68a0767.chunk.css",
+    "main.js": "/tetris-react/static/js/main.8447d696.chunk.js",
+    "main.js.map": "/tetris-react/static/js/main.8447d696.chunk.js.map",
+    "runtime-main.js": "/tetris-react/static/js/runtime-main.5cb8f77e.js",
+    "runtime-main.js.map": "/tetris-react/static/js/runtime-main.5cb8f77e.js.map",
+    "static/js/2.498de994.chunk.js": "/tetris-react/static/js/2.498de994.chunk.js",
+    "static/js/2.498de994.chunk.js.map": "/tetris-react/static/js/2.498de994.chunk.js.map",
+    "index.html": "/tetris-react/index.html",
+    "precache-manifest.2241573a4f705597f75fac520920c611.js": "/tetris-react/precache-manifest.2241573a4f705597f75fac520920c611.js",
+    "service-worker.js": "/tetris-react/service-worker.js",
+    "static/css/main.e68a0767.chunk.css.map": "/tetris-react/static/css/main.e68a0767.chunk.css.map",
+    "static/js/2.498de994.chunk.js.LICENSE.txt": "/tetris-react/static/js/2.498de994.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/tetris-react/static/media/Pixel.e2897552.woff",
+    "static/media/bgc.png": "/tetris-react/static/media/bgc.2810fe6b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cb8f77e.js",
+    "static/js/2.498de994.chunk.js",
+    "static/css/main.e68a0767.chunk.css",
+    "static/js/main.8447d696.chunk.js"
+  ]
+}
